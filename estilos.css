@@ -37,7 +37,7 @@
     padding: 10px;
     margin: 30px auto;
     width: 700px;
-    height: 500px;
+    height: 100vh;
     border-radius: 10px;
     background-color: #F2F4F4;
     border: solid 1px rgba(0, 0, 0, 0.185);
@@ -71,3 +71,43 @@
     margin-left: 33%;
     margin-top: 30px;
 }
+
+
+
+/* Estilos capcha */
+
+
+
+input[type=text] {
+  padding: 12px 20px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+button{
+background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 12px 30px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+canvas{
+/*prevent interaction with the canvas*/
+pointer-events:none;
+}
+
+
+.conte-captcha{
+  width: 100%;
+  display: flex;
+  padding-top: 30px;
+  flex-direction: column;
+  align-items: center;
+  
+  
+}
+
+
