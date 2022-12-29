@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+
+.header{
+    width: 100%;
+    background-color: red;
+    height: 110px;
+}
+
+.conte-final{
+    display: flex;
+}
+
+.menu-aside{
+    display: inline-block;
+    background-color: blue;
+    width: 200px;
+    height: 100vh;
+}
+
+
+.contenedor{
+
+    display: flex;
+    background-color: #ffff;
+    width: 100%;
+    height: 100vh;
+}
+
+
+.contenedor-formulario{
+    padding: 10px;
+    margin: 30px auto;
+    width: 700px;
+    height: 500px;
+    border-radius: 10px;
+    background-color: #F2F4F4;
+    border: solid 1px rgba(0, 0, 0, 0.185);
+}
+
+.h2-form{
+      text-align: center;
+      font-weight: bolder; 
+      margin-bottom: 30px;    
+}
+
+.selec-form{
+    width: 100%;
+    height: 35px;
+    border-radius: 7px;
+    border: solid 1px rgb(0, 0, 0);
+}
+
+.lb-form{
+    
+    font-weight: bold;
+}
+
+
+
+.tabla-info{
+    border: solid 1px rgba(0, 0, 0, 0.233);
+}
+.bton-consulta{
+    width: 200px;
+    margin-left: 33%;
+    margin-top: 30px;
+}
